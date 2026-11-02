@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="0; url=./howtocook-newyear/">
+<title>程序员年夜饭 · 正在进入</title>
+<style>
+body{
+  margin:0;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  background:radial-gradient(circle at 50% 40%,#a31621,#4d080c 70%);
+  color:#fff5e6;font-family:"Microsoft YaHei",sans-serif;text-align:center;overflow:hidden
+}
+.lantern{font-size:72px;animation:sway 2.6s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(8deg) translateY(-6px)}to{transform:rotate(-8deg) translateY(6px)}}
+h1{font-family:"KaiTi","STKaiti",serif;font-size:clamp(30px,6vw,54px);margin:14px 0 6px;
+  background:linear-gradient(180deg,#fff3c4,#ffd700 45%,#e8a20c 70%,#ffe9a0);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 3px 2px rgba(60,0,0,.6))}
+p{color:#ffd9a8;font-size:15px;margin:6px 0 26px;letter-spacing:.1em}
+a.btn{font-family:"KaiTi",serif;font-size:20px;letter-spacing:.15em;text-decoration:none;color:#3a0507;
+  background:linear-gradient(180deg,#ffe08a,#e6b422);padding:13px 34px;border-radius:999px;
+  border:2px solid #8a5a00;box-shadow:0 6px 22px rgba(255,180,0,.4);display:inline-block}
+a.btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,180,0,.55)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffd700;margin:0 3px;
+  animation:bl 1.1s infinite alternate}
+.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
+@keyframes bl{from{opacity:.25}to{opacity:1}}
+</style>
+</head>
+<body>
+  <div class="lantern">🏮</div>
+  <h1>程序员年夜饭</h1>
+  <p>红红火火过大年 · 正在进入<span class="dot"></span><span class="dot"></span><span class="dot"></span></p>
+  <a class="btn" href="./howtocook-newyear/">点击进入年夜饭 →</a>
+</body>
+</html>
